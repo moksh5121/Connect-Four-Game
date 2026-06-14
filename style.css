@@ -1,0 +1,41 @@
+*{
+    background-color:rgb(40, 23, 23);
+    color:rgb(230, 115, 44);
+}
+body{
+    font-family: "Inter", system-ui, sans-serif;
+    text-align:center;
+}
+.heading{
+    font-size:50px;
+    color:white;
+}
+.heading span{
+    color:yellow;
+}
+#board{
+    height:540px;
+    width:630px;
+    background-color:blue;
+    border:10px solid navy;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+.tile{
+    height:70px;
+    width:70px;
+    margin:5px;
+    background-color:white;
+    border-radius:50%;
+    border:5px solid navy;
+}
+.red-piece{
+    background-color:red;
+}
+.yellow-piece{
+    background-color:yellow;
+}
+.red-wins{
+    color:rgb(236, 149, 73);
+}
